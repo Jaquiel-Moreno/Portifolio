@@ -28,7 +28,7 @@ body{
     padding: 0;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.589);
-     /* position: fixed;/* Adiciona a propriedade position com valor fixed */
+    position: fixed;/* Adiciona a propriedade position com valor fixed */
     margin-top: 0; /* Fixa a barra de navegação no topo da página */
     width: 100%; /* Define a largura como 100% da largura da página */
 
@@ -71,7 +71,7 @@ body{
 
 
 
-/* Estilização da barra de navegação */
+ /*Estilização da barra de navegação */
 
 
 .apresent {
