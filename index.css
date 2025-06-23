@@ -7,17 +7,17 @@
 
 
 body{
+    color: white;
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
     background-image: none;  
-    background-size: cover; /* Cobrir todo o espaço do body */
+   /* background-size: cover; /* Cobrir todo o espaço do body */
     background-repeat: no-repeat; /* Evitar repetição da imagem */
     background-attachment: fixed; 
     font-family: Arial, sans-serif;
     background-color:  rgba(0, 0, 0, 0.705);
-    /* background-image: url('imagens/planeta2.jpg');URL da sua imagem de fundo */
-    background-repeat: no-repeat; 
+    /* background-image: url('imagens/planeta2.jpg');*/
+    /*background-repeat: no-repeat; */
 
 }
 
@@ -76,12 +76,12 @@ body{
 
 .apresent {
 
-    display: flex;
+   /* display: flex;*/
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     background-color: rgba(255, 0, 0, 0.016);
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     line-height: 1.5; /* Espaçamento entre linhas */
     word-spacing: 2px;
     margin-right: 100px;
@@ -101,7 +101,6 @@ body{
 
 .rodape{
     text-align: center;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     background-color:  rgba(0, 0, 0, 0.705);
