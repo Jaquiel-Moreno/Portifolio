@@ -80,8 +80,8 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-    background-color: rgba(255, 0, 0, 0.016);
-    border: 1px solid #cccccc;
+    /*background-color: rgba(255, 0, 0, 0.016);*/
+    /*border: 1px solid #cccccc;*/
     line-height: 1.5; /* Espaçamento entre linhas */
     word-spacing: 2px;
     margin-right: 100px;
@@ -178,3 +178,7 @@ img{
     flex: 1; /* O texto ocupa todo o espaço restante */  
     float: left; 
 }
+
+
+
+
