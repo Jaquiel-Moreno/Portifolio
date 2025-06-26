@@ -38,7 +38,7 @@ body{
 .header_conteiner{
     margin: 0;
     padding: 0;
-    color: black;
+    color: rgb(0, 0, 0);
     background-image: none;  
     background-size: cover; /*Cobrir todo o espaço do body */
     background-repeat: no-repeat; /*Evitar repetição da imagem */ 
@@ -62,7 +62,7 @@ body{
     width: 150px; 
     height: 160px;
     border-radius: 50%; 
-     border-radius: 15px #5bbe42; 
+    border-radius: 15px #5bbe42; 
     flex: 0 0 auto; /* Largura da imagem é automática */
     margin-right: 20px; /* Espaço à direita da imagem */
     flex: 1; /* O texto ocupa todo o espaço restante */  
@@ -76,7 +76,7 @@ body{
 
 .apresent {
 
-   /* display: flex;*/
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
@@ -97,7 +97,6 @@ body{
   
 
 }
-
 
 .rodape{
     text-align: center;
